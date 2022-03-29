@@ -1,32 +1,19 @@
 <?php
-
 	session_start();
 	include_once('../includes/functions.php');
 	
-	if (isset($_SESSION['KEY']) && isset($_SESSION['ID'])){
-	
-		$key    = $_SESSION['KEY'];
-		$userid = $_SESSION['ID'];
-	
+	if ( isset($_SESSION['ID'])){
 		session_destroy();
+		$db = db::connect();	
 	
-		$fecha    = gmdate('Y-n-j H:i:s');
-		$connect  = db_connect('mlogin');
-			
-		//Si se conecto a la db
-		if ($connect === true){					
-			$logoutquery = sprintf("UPDATE `user_log` SET `logout` = '".$fecha."' WHERE `pkuser_log` = (SELECT `fkuser_log`
-										FROM `user_sess` WHERE `fkusuario` = '%s' );" , mysql_real_escape_string($userid));							 
-			$logout = @mysql_query($logoutquery);	
-			$keysess = sprintf("DELETE FROM `usuarios_sess` WHERE `fkusuario` = '%s';", mysql_real_escape_string($userid));
-			$keyout = @mysql_query($keysess);		
-			mysql_close();
-		}
+		$query = "SELECT `pkuser_log` FROM  `user_log` WHERE `fkuser`= '%s' ORDER BY pkuser_log DESC LIMIT 1";
+		$db->execute($query,array($_SESSION['ID']));   
+		$userLog =$db->fetch_array();
+		$query = "UPDATE `user_log` SET `logout` = NOW() WHERE `pkuser_log` ='%s'";
+		$db->execute($query,array($userLog[0]['pkuser_log'])); 						
+		mysql_close();
+	 
 	}
 	header("Location: ../index.php");
 	
 ?>
-<html>
-	<body>
-	</body>
-</html>

@@ -10,7 +10,7 @@
 <html>
 	<head>
 		<title>Agregar </title>
-		<link rel="icon" type="image/png" href="images/house.png" />
+		<link rel="icon" type="image/png" href="images/login_icon.png" />
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
@@ -71,7 +71,7 @@
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
 			<script src="assets/js/jquery-ui.js"></script>
- 			<link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/smoothness/jquery-ui.css">
+ 			
 	</body>
 </html>
 <script type="text/javascript">

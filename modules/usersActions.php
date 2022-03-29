@@ -14,7 +14,9 @@
                             CASE WHEN user_status = 0 THEN 'ACTIVAR' 
                                 WHEN user_status = 1 THEN 'SUSPENDER' 
                                 ELSE 'ACTIVAR' END as newStatus
-                            FROM `user` WHERE ".($_POST['find'] !=''?" `user_name` = '%s' OR dni = '%s'":"1");
+                            FROM `user` 
+                            WHERE ".($_POST['find'] !=''?" `user_name` = '%s' OR dni = '%s'":"1")."
+                            ORDER BY user_name ASC";
                 $db->execute($query,array($_POST['find'],$_POST['find']));
                 $userResult =$db->fetch_array();    
                 $status = $db->estado();

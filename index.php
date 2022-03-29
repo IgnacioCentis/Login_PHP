@@ -1,6 +1,6 @@
 <?php
 	require('includes/functions.php');
-	session_start();   
+	    
 	if (!empty($_SESSION['ID'])){
 		header("Location: main.php");
 	}	

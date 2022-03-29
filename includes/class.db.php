@@ -57,6 +57,13 @@
 		public function close(){
 			mysql_close($this->connect);
 		}
+		public function num_rows(){
+			if($this->recurso){
+				return @mysql_num_rows($this->recurso);
+			}else{
+				return false;
+			}	
+		}
 
 	}
 ?>

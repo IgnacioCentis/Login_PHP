@@ -10,7 +10,7 @@
 <html>
 	<head>
 		<title>Buscar </title>
-		<link rel="icon" type="image/png" href="images/house.png" />
+		<link rel="icon" type="image/png" href="images/login_icon.png" />
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
@@ -37,16 +37,13 @@
 								<div class="col-4 col-2-xsmall">
 									<button type="button" class="button primary icon fa-search" style="margin-left: 25%; " id='search'>Buscar</button>										
 								</div>	
-							
 							</div><hr>  
-                            <table   >
+                            <table>
                                 <thead style="border-bottom-color: red;" > 
                                     <tr><th>DNI</th><th>NOMBRE</th><th>ESTADO</th><th cospan="2">OPCIONES</th></tr></thead>
                                     <tbody id='tableUser'> 
                                     </tbody>
-                                    
-                            </table>
-                         						
+                            </table>              						
 					</div>
 				</div>
 
@@ -66,7 +63,7 @@
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
 			<script src="assets/js/jquery-ui.js"></script>
- 			<link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/smoothness/jquery-ui.css">
+ 	
 
 	</body>
 </html>
