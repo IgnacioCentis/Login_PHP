@@ -1,4 +1,5 @@
 <?php
+
 	session_start(); 
 	//Posibles Errores
 	define('ER1', 'ER1: No existe el usuario.', true);
