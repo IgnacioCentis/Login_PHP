@@ -17,3 +17,6 @@ Prueba donde se realiza un sistema de login, donde todo usuario logiado tiene el
 
 
 Se incluye base de datos login.sql
+
+User: 222
+Pass: 123456
