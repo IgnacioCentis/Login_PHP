@@ -16,3 +16,4 @@ Prueba donde se realiza un sistema de login, donde todo usuario logiado tiene el
 - Export documents as Markdown, HTML and PDF
 
 
+Se incluye base de datos login.sql
