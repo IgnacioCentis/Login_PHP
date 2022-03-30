@@ -6,7 +6,7 @@
 Prueba donde se realiza un sistema de login, donde todo usuario logiado tiene el permiso para agregar un nuevo usuario, eliminar y suspender.
 
 
-## Features
+## Caracteristicas
 
 - Login de usuario
 - Listado de usuarios
