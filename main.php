@@ -9,7 +9,7 @@
 <!DOCTYPE HTML>
 <html>
 	<head>
-		<title>Bienvenido</title>
+		<title>Bienvenido!</title>
 		<link rel="icon" type="image/png" href="images/login_icon.png" />
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
