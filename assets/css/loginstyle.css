@@ -1,12 +1,12 @@
 body {
-  background: #2d343d;
+  background: #58677a;
 }
 
 .login {
   margin: 20px auto;
   width: 300px;
   padding: 30px 25px;
-  background: white;
+  background: #c2c1c5;
   border: 1px solid #c4c4c4;
 }
 
