@@ -22,7 +22,7 @@
 						<div id="login_container">
 							<!-- Usuario -->
 							<img src="images/login_icon.png"  style="margin-left: 35%;width: 25%;">
-							<h3 class="login-title" style=" margin-left: 15%;margin-bottom: 5%!important;">ACCESO PRIVADO </h3 >
+							<h3 class="login-title" style=" margin-left: 15%;margin-bottom: 5%!important;"> ACCESO PRIVADO </h3 >
 							<br>
 							<span style="margin: 0;color: #8F8F8F;">NOMBRE DE USUARIO</span>
 							<input class="login-input" style="width:100%"  name="user" type="text" placeholder="DNI" autofocus="true" >
