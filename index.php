@@ -19,6 +19,7 @@
 			<div class="span4_col">	 
 				<form class="login" action="modules/user_log.php" method="POST">
 					<div id="login">
+ 
 						<div id="login_container">
 							<!-- Usuario -->
 							<img src="images/login_icon.png"  style="margin-left: 35%;width: 25%;">
@@ -32,6 +33,7 @@
 							<input class="login-input" style="width:100%"  name="pass" type="password" placeholder="CONTRASEÑA"/>
 							<input class="login-button primary" type="submit" id='acceder'/>
 						</div>
+ 
 					</div>
 				</form>	               	 
 			</div>     
