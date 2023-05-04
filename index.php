@@ -19,19 +19,21 @@
 			<div class="span4_col">	 
 				<form class="login" action="modules/user_log.php" method="POST">
 					<div id="login">
+ 
 						<div id="login_container">
 							<!-- Usuario -->
 							<img src="images/login_icon.png"  style="margin-left: 35%;width: 25%;">
-							<h3 class="login-title" style=" margin-left: 15%;margin-bottom: 5%!important;"> ACCESO PRIVADO </h3 >
+							<h3 class="login-title" style=" margin-left: 15%;margin-bottom: 5%!important;">ACCESO PRIVADO </h3 >
 							<br>
 							<span style="margin: 0;color: #8F8F8F;">NOMBRE DE USUARIO</span>
 							<input class="login-input" style="width:100%"  name="user" type="text" placeholder="DNI" autofocus="true" >
 							<div class="x"></div>
 							<!-- Contraseña -->
-							<span style="margin: 0;color: #8F8F8F;">CONTRASEÑA!</span>
+							<span style="margin: 0;color: #8F8F8F;">CONTRASEÑA</span>
 							<input class="login-input" style="width:100%"  name="pass" type="password" placeholder="CONTRASEÑA"/>
 							<input class="login-button primary" type="submit" id='acceder'/>
 						</div>
+ 
 					</div>
 				</form>	               	 
 			</div>     
